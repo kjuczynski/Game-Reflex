@@ -1,0 +1,27 @@
+
+
+.match{
+    display: grid;
+    min-height: 80vh;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;   
+    gap: 20px;
+    
+}
+
+.match div {
+    border: 3px solid black;
+    background-size: cover;
+    background-position: center;
+}
+
+.match .display{
+    border: 3px solid black;
+}
+
+button{
+    display: none;
+}
